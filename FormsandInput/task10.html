@@ -1,131 +1,133 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>task10</title>
-</head>
-<body>
-<h1>Registration Form</h1>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
 
-<p>
-  Of course, all submitted information is kept in the strictest confidence.<br>
-  You always retain control of your information with D. W. Simpson & Co.<br>
-  <b>Our services are always at no cost to you.</b>
-</p>
+    <p>
+      Of course, all submitted information is kept in the strictest
+      confidence.<br />
+      You always retain control of your information with D. W. Simpson & Co.<br />
+      <b>Our services are always at no cost to you.</b>
+    </p>
 
-<form>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" /><br /><br />
 
-  <label for="name">Name:</label>
-  <input type="text" id="name"><br><br>
+      <label for="address">Address:</label>
+      <input type="text" id="address" size="50" /><br /><br />
 
-  <label for="address">Address:</label>
-  <input type="text" id="address" size="50"><br><br>
+      <label for="city">City:</label>
+      <input type="text" id="city" />
 
-  <label for="city">City:</label>
-  <input type="text" id="city">
+      <label for="state">State/Province:</label>
+      <input type="text" id="state" /><br /><br />
 
-  <label for="state">State/Province:</label>
-  <input type="text" id="state"><br><br>
+      <label for="zip">Zip Code:</label>
+      <input type="text" id="zip" /><br /><br />
 
-  <label for="zip">Zip Code:</label>
-  <input type="text" id="zip"><br><br>
+      <label for="country">Country:</label>
+      <input type="text" id="country" /><br /><br />
 
-  <label for="country">Country:</label>
-  <input type="text" id="country"><br><br>
+      <label for="phoneH">Phone (H):</label>
+      <input type="text" id="phoneH" />
 
-  <label for="phoneH">Phone (H):</label>
-  <input type="text" id="phoneH">
+      <label for="fax">Fax:</label>
+      <input type="text" id="fax" /><br /><br />
 
-  <label for="fax">Fax:</label>
-  <input type="text" id="fax"><br><br>
+      <label for="phoneW">Phone (W):</label>
+      <input type="text" id="phoneW" />
+      (if able to speak freely)
+      <br /><br />
 
-  <label for="phoneW">Phone (W):</label>
-  <input type="text" id="phoneW">
-  (if able to speak freely)
-  <br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" /><br /><br />
 
-  <label for="email">Email:</label>
-  <input type="email" id="email"><br><br>
+      <label for="company">Company Name:</label>
+      <input type="text" id="company" />
+      (optional)
+      <br /><br />
 
-  <label for="company">Company Name:</label>
-  <input type="text" id="company">
-  (optional)
-  <br><br>
+      <label for="region">Desired Region:</label>
+      <select id="region">
+        <option>Other</option>
+        <option>North America</option>
+        <option>Europe</option>
+        <option>Asia</option>
+      </select>
 
-  <label for="region">Desired Region:</label>
-  <select id="region">
-    <option>Other</option>
-    <option>North America</option>
-    <option>Europe</option>
-    <option>Asia</option>
-  </select>
+      <label for="otherRegion">Other:</label>
+      <input type="text" id="otherRegion" /><br /><br />
 
-  <label for="otherRegion">Other:</label>
-  <input type="text" id="otherRegion"><br><br>
+      <label>Professional designations earned:</label><br />
 
-  <label>Professional designations earned:</label><br>
+      <input type="checkbox" id="cs" />
+      <label for="cs">College Student</label>
 
-  <input type="checkbox" id="cs">
-  <label for="cs">College Student</label>
+      <input type="checkbox" id="as" />
+      <label for="as">Actuarial Student</label>
 
-  <input type="checkbox" id="as">
-  <label for="as">Actuarial Student</label>
+      <input type="checkbox" id="acas" />
+      <label for="acas">ACAS</label>
 
-  <input type="checkbox" id="acas">
-  <label for="acas">ACAS</label>
+      <input type="checkbox" id="fcas" />
+      <label for="fcas">FCAS</label>
 
-  <input type="checkbox" id="fcas">
-  <label for="fcas">FCAS</label>
+      <input type="checkbox" id="asa" />
+      <label for="asa">ASA</label><br />
 
-  <input type="checkbox" id="asa">
-  <label for="asa">ASA</label><br>
+      <input type="checkbox" id="fsa" />
+      <label for="fsa">FSA</label>
 
-  <input type="checkbox" id="fsa">
-  <label for="fsa">FSA</label>
+      <input type="checkbox" id="ea" />
+      <label for="ea">EA</label>
 
-  <input type="checkbox" id="ea">
-  <label for="ea">EA</label>
+      <input type="checkbox" id="cfa" />
+      <label for="cfa">CFA</label>
 
-  <input type="checkbox" id="cfa">
-  <label for="cfa">CFA</label>
+      <input type="checkbox" id="mba" />
+      <label for="mba">MBA</label>
 
-  <input type="checkbox" id="mba">
-  <label for="mba">MBA</label>
+      <input type="checkbox" id="maaa" />
+      <label for="maaa">MAAA</label>
 
-  <input type="checkbox" id="maaa">
-  <label for="maaa">MAAA</label>
+      <input type="checkbox" id="fia" />
+      <label for="fia">FIA</label>
 
-  <input type="checkbox" id="fia">
-  <label for="fia">FIA</label>
+      <input type="checkbox" id="fcia" />
+      <label for="fcia">FCIA</label><br />
 
-  <input type="checkbox" id="fcia">
-  <label for="fcia">FCIA</label><br>
+      <input type="checkbox" id="fiaa" />
+      <label for="fiaa">FIAA</label>
 
-  <input type="checkbox" id="fiaa">
-  <label for="fiaa">FIAA</label>
+      <input type="checkbox" id="fe" />
+      <label for="fe">Financial Engineer</label>
 
-  <input type="checkbox" id="fe">
-  <label for="fe">Financial Engineer</label>
+      <input type="checkbox" id="ms" />
+      <label for="ms">MS</label>
 
-  <input type="checkbox" id="ms">
-  <label for="ms">MS</label>
+      <input type="checkbox" id="phd" />
+      <label for="phd">Ph.D.</label>
 
-  <input type="checkbox" id="phd">
-  <label for="phd">Ph.D.</label>
+      <input type="checkbox" id="data" />
+      <label for="data">Data Mining</label>
 
-  <input type="checkbox" id="data">
-  <label for="data">Data Mining</label>
+      <input type="checkbox" id="quant" />
+      <label for="quant">Quant</label>
 
-  <input type="checkbox" id="quant">
-  <label for="quant">Quant</label>
+      <br /><br />
 
-  <br><br>
-
-  <label for="otherDes">Other Designations:</label><br>
-  <input type="text" id="otherDes" size="50"><br><br>
-
-</form>
-
-</body>
+      <label for="otherDes">Other Designations:</label><br />
+      <input type="text" id="otherDes" size="50" /><br /><br />
+    </form>
+    <br />
+    <hr />
+    <h5><a href="./subindex.html">Back</a></h5>
+    <h5><a href="../index.html">Back to home</a></h5>
+  </body>
 </html>
