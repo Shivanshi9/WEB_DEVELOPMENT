@@ -1,0 +1,38 @@
+/* Reset default browser spacing */
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+footer
+{
+    background-color:#BDC3C7;
+    border-radius: 20px;
+    padding: 20px;
+}
+nav{
+    background-color: #BDC3C7;
+    border-radius: 10px;
+    width: 50px;
+}
+
+a{
+    padding: 13px;
+}
+
+#heading
+{
+    width: 400px;
+    background-color: rgba(34, 2, 115, 0.496);
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+}
+table
+{
+    border-collapse: collapse;
+}
+th{
+    background-color: #118ee2;
+}
+
