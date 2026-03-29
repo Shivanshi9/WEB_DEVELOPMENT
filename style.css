@@ -1,4 +1,4 @@
-/* Reset default browser spacing */
+
 /* * {
   margin: 0;
   padding: 0;
@@ -23,7 +23,7 @@ a{
 #heading
 {
     width: 400px;
-    background-color: rgba(34, 2, 115, 0.496);
+    background-color: rgba(34, 2, 115, 0.661);
     padding: 20px;
     color: white;
     border-radius: 20px;

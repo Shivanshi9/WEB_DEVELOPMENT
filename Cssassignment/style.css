@@ -1,0 +1,56 @@
+/* #maindiv
+{
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+    display: block;
+}
+
+#div1,#div2,#div3
+{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    background-color: aqua;
+    margin: 47px;
+} */
+
+/* #maindiv
+{
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    /* flex-properties */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-direction:row-reverse; */
+    /* gap: 20px; */
+     /* justify-content: baseline; the elements will be at start of screen */
+     /* justify-content: end; */
+     /* justify-content: center; */
+     /* justify-content: space-evenly;
+     align-items: center; */
+     /* gap: 100px; */
+
+/* } */ 
+
+#maindiv
+{
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+
+#div1,#div2,#div3
+{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+

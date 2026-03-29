@@ -1,0 +1,36 @@
+/* display 
+block - always new line -> div property,
+ inline - widhth height not applied -> span property
+ inline - bloack -> div + span property
+ none -> 
+ flex -> horizontal to vertical and vice versa ,justify-content,gap,flex-direction
+ 
+ flex-direction     justify-content     align-item
+ 
+ 
+ */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#div1
+{
+    width: 200px;
+    height: 200px;
+    border: 1px sol black;
+    background-color: blueviolet;
+    /* display: inline; */
+    /* display: inline-block; */
+    display: none;
+}
+
+#span1
+{
+    width: 200px;
+    height: 200px;
+    border: 1px sol black;
+    background-color: red;
+    /* display: block; */
+    display: inline-block;
+}
