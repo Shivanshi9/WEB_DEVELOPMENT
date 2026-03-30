@@ -1,0 +1,79 @@
+body{
+   font-family: "Varela Round", sans-serif;
+}
+
+#main
+{
+    width: 800px;
+    background-color: rgb(55, 55, 222);
+    display: flex;
+    align-items: end;
+    margin: 0 auto;
+    padding: 200px 0px 0px 150px;
+}
+
+.sub
+{
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}
+
+.heading
+{
+    font-size: 25px;
+}
+
+a{
+    font-size: smaller;
+}
+.small
+{
+    font-size: smaller;
+}
+#forget
+{
+    margin: 25px;
+}
+
+.custom-underline {
+  text-decoration: underline;
+  text-decoration-color: rgb(55, 55, 222); 
+}
+
+input {
+  border: none;                
+  border-bottom: 2px solid #ccc; 
+  outline: none;              
+  padding: 5px 10px;
+  /* width: 250px; */
+}
+
+#submitbutton
+{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(55, 55, 222) ;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+#registerbutton
+{
+     width: 300px;
+    height: 40px;
+    background-color: rgb(55, 55, 222) ;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+.centre
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

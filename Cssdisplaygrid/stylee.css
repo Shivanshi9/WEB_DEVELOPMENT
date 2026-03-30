@@ -1,0 +1,34 @@
+/* grid applied on parent always
+   grid-template-column- size of column * no of column
+   grid-template-columns: 200px 200px 200px; 3 column of size 200pz
+   grid m justify-item work krta h justify-content nhi 
+
+
+  text-align -> only align horizontaly not vertially
+ */
+
+#outerdiv
+{
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    justify-items: center;
+    align-items: center;
+    /* row-gap: 10px; */
+    margin: 0 auto;
+    
+}
+
+.innerdiv
+{
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(181, 11, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
