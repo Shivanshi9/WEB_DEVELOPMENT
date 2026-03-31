@@ -1,0 +1,203 @@
+/* q1-> jab widh 100% kr dete h to kya vo pdding aur margin ko bhi ignore kr deta h */
+
+/* note-> button ko div ke andr bnana and button tag me id dena vrna gdbad hofgi */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+nav{
+    background-color: white;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 0px;
+    
+}
+
+.left
+{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    img
+    {
+        height: 50px;
+        padding: 0 60px;
+    }
+    a
+    {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
+}
+
+
+
+.right
+{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    padding: 0 40px;
+}
+
+#loginbutton
+{
+    background-color: #1F5E82;
+    width: fit-content;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 7px 7px 3px 0 #3981ab;
+}
+
+#enquiry
+{
+    background-color: #c2deed;
+    width: 900px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+form
+{
+    height: 100%;
+}
+
+#heading
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#heading h1
+{
+    margin: 20px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column; 
+}
+
+#firstL, #secL, #fortL 
+{
+   display: grid;
+   grid-template-columns: 25rem 25rem;
+   gap: 20px; 
+   margin-bottom: 20px;
+   width: 100%;
+}
+
+#thiL 
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+    color: #0d0d0d;
+    margin-bottom: 8px;
+    margin-top: 10px; 
+}
+
+input , select{
+    height: 40px;
+    border: rgb(30, 29, 29);
+    border-radius: 10px;
+    padding: 10px;
+    /* margin: 0 10px; */
+}
+
+#lastL
+{
+    display: grid;
+    grid-template-columns: 25rem 25rem;
+    gap: 30px;
+}
+
+#group1
+{
+    line-height: 20px;
+}
+
+#group1 select
+{
+    padding: 0;
+    margin: 0;
+}
+
+#group2
+{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+#submit
+{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: max-content;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 40px;
+    border: none;
+    background-color: #1f1d1d;
+}
+
+#foot
+{
+    width: 100%;
+    background-color: #1F5E82;
+    margin-top: 70px;
+    padding: 40px;
+}
+
+#bodyy
+{
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px;
+    color: white;
+    padding: 50px;
+}
+
+#part
+{
+    align-items: start;
+}
+
+img{
+    size: 40px;
+}
+
