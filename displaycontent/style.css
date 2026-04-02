@@ -2,7 +2,9 @@
 block - always new line -> div property,
  inline - widhth height not applied -> span property
  inline - bloack -> div + span property
- none -> 
+ none -> This panel contains a div element, which is hidden by default (display: none).
+We use JavaScript to show it (display: block).
+How it works: When the user clicks on the p element, a function called myFunction() is executed, which changes the style of the div with id="panel" from display:none (hidden) to display:block (visible).
  flex -> horizontal to vertical and vice versa ,justify-content,gap,flex-direction
  
  flex-direction     justify-content     align-item
@@ -11,28 +13,25 @@ block - always new line -> div property,
  parent
  
  */
-*
-{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-#div1
-{
-    width: 200px;
-    height: 200px;
-    border: 1px sol black;
-    background-color: blueviolet;
-    /* display: inline; */
-    /* display: inline-block; */
-    display: none;
+#div1 {
+  width: 200px;
+  height: 200px;
+  border: 1px sol black;
+  background-color: blueviolet;
+  display: inline;
+  /* display: inline-block; */
+  /* display: none; */
 }
 
-#span1
-{
-    width: 200px;
-    height: 200px;
-    border: 1px sol black;
-    background-color: red;
-    /* display: block; */
-    display: inline-block;
+#span1 {
+  width: 200px;
+  height: 200px;
+  border: 1px sol black;
+  background-color: red;
+  display: block;
+  /* display: inline-block; */
 }
