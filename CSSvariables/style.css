@@ -1,0 +1,50 @@
+:root{
+    --main-color: rgb(163, 12, 37);
+    --sub-color: skyblue;
+    --text-color: rgb(59, 178, 59);
+
+}
+
+
+#login
+{
+    background-color: var(--main-color);
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#register
+{
+    background-color: var(--sub-color);
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+h1
+{
+    color: var(--main-color);
+    /* loacal var -> just nonsens*/
+    /* --somecolor : red;
+    color: var(--somecolor); */
+}
+
+h3{
+    color: var(--sub-color);
+}
+
+p
+{
+    color: var(--text-color);
+}
+
+th{
+    color: var(--main-color);
+}
+
+td{
+    color: var(--sub-color);
+}
