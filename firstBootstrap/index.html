@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,7 +16,7 @@
     <!-- color-emphasis-> lighter version of color -->
 
     <!-- classes in bootstrap -->
-     <!-- 1. Backgroun color -> bg-colorname
+    <!-- 1. Backgroun color -> bg-colorname
           2. text-position -> text-start,text-centre,text-end
           3. text-case -> text-capitalize,text-uppercase,text-lowercase
           4. font wieght -> fw-bold,fw-bolder,fw-light,fw-lighter,fw-medium,fw-semibold etc
@@ -31,14 +32,11 @@
           4-24px
           5-48px
           9. padding ->  p s/e/t/b/x/y - 0/1/2/3/4/5
-          
-          
+          10. display-grid partially support only gap 0-5 works 
+          11. display -> d-block,d-flex,d-none,d-inline
+              d-flex flex-column gap-3 justify-content-evenly align-items-center 
+          12. .row -> means tr
           -->
-
-
-
-
-
 
     <!-- <div class="bg-primary text-primary-emphasis">hello</div>
     <div class="bg-Secondary text-primary-emphasis">hello</div>
@@ -49,22 +47,94 @@
     <div class="bg-dark">hello</div>
     <div class="bg-info">hello</div> -->
 
-    <div class="bg-primary text-primary-emphasis">
-      <h1 class="text-center text-capitalize border border-warning border-3 mx-5 my-3 py-3">This is heading</h1>
-      <p class="fw-semibold fst-italic border border-danger border-5  rounded-3 shadow-lg p-5">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, ipsum
-        quae officia maxime natus fugit totam blanditiis quidem voluptas sint
-        consectetur consequuntur perferendis similique vero neque laborum cum
-        molestiae voluptates ullam repudiandae omnis quod reiciendis repellat
-        officiis. Fugiat consequuntur repudiandae illo dolore error
-        necessitatibus nulla dicta minima doloribus atque? Praesentium beatae,
-        necessitatibus nam deleniti hic mollitia ab quibusdam dolorum enim
-        asperiores amet harum ea libero iusto ut quidem perferendis rem laborum
-        iste voluptatibus, magni vel dolorem. Ipsum ex deleniti mollitia? Ullam
-        necessitatibus suscipit eaque nam ipsam! Consequatur eveniet doloremque
-        modi, molestias, tempora corporis earum saepe nisi nam perferendis omnis
-        commodi.
-      </p>
+    <div class="bg-primary text-primary-emphasis ">
+      <h1
+        class="text-center text-capitalize border border-warning border-3 mx-5 my-3 py-3"
+      >
+        This is heading
+      </h1>
+      <div class="d-flex flex-column gap-3 justify-content-evenly align-items-center" id="innerdiv">
+        <p
+          class="fw-semibold fst-italic border border-danger border-5 rounded-3 shadow-lg p-5"
+        >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, ipsum
+          quae officia maxime natus fugit totam blanditiis quidem voluptas sint
+          consectetur consequuntur perferendis similique vero neque laborum cum
+          molestiae voluptates ullam repudiandae omnis quod reiciendis repellat
+          officiis. Fugiat consequuntur repudiandae illo dolore error
+          necessitatibus nulla dicta minima doloribus atque? Praesentium beatae,
+          necessitatibus nam deleniti hic mollitia ab quibusdam dolorum enim
+          asperiores amet harum ea libero iusto ut quidem perferendis rem
+          laborum iste voluptatibus, magni vel dolorem. Ipsum ex deleniti
+          mollitia? Ullam necessitatibus suscipit eaque nam ipsam! Consequatur
+          eveniet doloremque modi, molestias, tempora corporis earum saepe nisi
+          nam perferendis omnis commodi.
+        </p>
+        <p
+          class="fw-semibold fst-italic border border-danger border-5 rounded-3 shadow-lg p-5"
+        >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, ipsum
+          quae officia maxime natus fugit totam blanditiis quidem voluptas sint
+          consectetur consequuntur perferendis similique vero neque laborum cum
+          molestiae voluptates ullam repudiandae omnis quod reiciendis repellat
+          officiis. Fugiat consequuntur repudiandae illo dolore error
+          necessitatibus nulla dicta minima doloribus atque? Praesentium beatae,
+          necessitatibus nam deleniti hic mollitia ab quibusdam dolorum enim
+          asperiores amet harum ea libero iusto ut quidem perferendis rem
+          laborum iste voluptatibus, magni vel dolorem. Ipsum ex deleniti
+          mollitia? Ullam necessitatibus suscipit eaque nam ipsam! Consequatur
+          eveniet doloremque modi, molestias, tempora corporis earum saepe nisi
+          nam perferendis omnis commodi.
+        </p>
+        <p
+          class="fw-semibold fst-italic border border-danger border-5 rounded-3 shadow-lg p-5"
+        >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, ipsum
+          quae officia maxime natus fugit totam blanditiis quidem voluptas sint
+          consectetur consequuntur perferendis similique vero neque laborum cum
+          molestiae voluptates ullam repudiandae omnis quod reiciendis repellat
+          officiis. Fugiat consequuntur repudiandae illo dolore error
+          necessitatibus nulla dicta minima doloribus atque? Praesentium beatae,
+          necessitatibus nam deleniti hic mollitia ab quibusdam dolorum enim
+          asperiores amet harum ea libero iusto ut quidem perferendis rem
+          laborum iste voluptatibus, magni vel dolorem. Ipsum ex deleniti
+          mollitia? Ullam necessitatibus suscipit eaque nam ipsam! Consequatur
+          eveniet doloremque modi, molestias, tempora corporis earum saepe nisi
+          nam perferendis omnis commodi.
+        </p>
+        <p
+          class="fw-semibold fst-italic border border-danger border-5 rounded-3 shadow-lg p-5"
+        >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, ipsum
+          quae officia maxime natus fugit totam blanditiis quidem voluptas sint
+          consectetur consequuntur perferendis similique vero neque laborum cum
+          molestiae voluptates ullam repudiandae omnis quod reiciendis repellat
+          officiis. Fugiat consequuntur repudiandae illo dolore error
+          necessitatibus nulla dicta minima doloribus atque? Praesentium beatae,
+          necessitatibus nam deleniti hic mollitia ab quibusdam dolorum enim
+          asperiores amet harum ea libero iusto ut quidem perferendis rem
+          laborum iste voluptatibus, magni vel dolorem. Ipsum ex deleniti
+          mollitia? Ullam necessitatibus suscipit eaque nam ipsam! Consequatur
+          eveniet doloremque modi, molestias, tempora corporis earum saepe nisi
+          nam perferendis omnis commodi.
+        </p>
+        <p
+          class="fw-semibold fst-italic border border-danger border-5 rounded-3 shadow-lg p-5"
+        >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, ipsum
+          quae officia maxime natus fugit totam blanditiis quidem voluptas sint
+          consectetur consequuntur perferendis similique vero neque laborum cum
+          molestiae voluptates ullam repudiandae omnis quod reiciendis repellat
+          officiis. Fugiat consequuntur repudiandae illo dolore error
+          necessitatibus nulla dicta minima doloribus atque? Praesentium beatae,
+          necessitatibus nam deleniti hic mollitia ab quibusdam dolorum enim
+          asperiores amet harum ea libero iusto ut quidem perferendis rem
+          laborum iste voluptatibus, magni vel dolorem. Ipsum ex deleniti
+          mollitia? Ullam necessitatibus suscipit eaque nam ipsam! Consequatur
+          eveniet doloremque modi, molestias, tempora corporis earum saepe nisi
+          nam perferendis omnis commodi.
+        </p>
+      </div>
     </div>
 
     <!-- BootStrap Script  -->
