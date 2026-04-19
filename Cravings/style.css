@@ -64,10 +64,6 @@ button.login:hover{
     height: 65vh;
 }
 
-.hero {
-  min-height: 100vh ;
-}
-
 .textpart {
   min-height: 50vh ;
 }
@@ -91,13 +87,22 @@ button.login:hover{
     font-weight: bold;
 }
 
+.btns .btn.signup:hover
+{
+    opacity: 0.9;
+}
+
 .btns .btn.ordernow
 {
     background-color: white;
     color: black;
     font-size: 10px;
     font-weight: bold;
+}
 
+.btns .btn.ordernow:hover
+{
+    opacity: 0.9;
 }
 
 .custom-btn-w1
@@ -110,4 +115,53 @@ button.login:hover{
 {
     width: 90px;
     height: 35px;
+}
+
+.custom-i
+{
+    size: 50px;
+    color: black;
+    background-color: transparent;
+}
+
+.inputbox
+{
+    height: 30px;
+}
+
+.custom-searchbar
+{
+    font-size: 10px;
+}
+
+.res
+{
+     display: flex;
+    justify-content: center; 
+    align-items: start; 
+    height: 75vh;
+    background: #f04400;
+background: linear-gradient(180deg, rgba(240, 68, 0, 1) 0%, rgba(232, 147, 114, 1) 50%, rgba(250, 247, 247, 1) 100%);
+}
+
+.custom-font
+{
+   color: white;
+}
+
+.card
+{
+    height: 400px;
+    width: 200px;
+    background-color: white;
+    margin-right: 50px;
+    
+}
+
+.inner-container {
+    width: 70%; 
+    /* background-color: rgba(0, 123, 255, 0.9);  */
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: left; 
 }
