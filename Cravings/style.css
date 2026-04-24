@@ -408,10 +408,38 @@ footer
         background-color: white;
      }
 
-     .res1
+ .res1
 {
      display: flex;
     justify-content: center; 
     align-items: start; 
     height: 75vh;
+}
+
+.info-containerr {
+    background-color: rgb(255, 246, 247);
+    padding: 20px 0;   
+    padding-left: 300px;
+    box-shadow: 5px 5px rgb(201, 201, 201);
+}
+
+.inner-box {
+    width: 80vw;
+}
+
+.backto {
+    color: #c2410c;
+    font-weight: 500;
+     padding-left: 27px;
+}
+
+.inner-box img {
+    height: 200px;
+    width: 230px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.res-info {
+    line-height: 35px;
 }
