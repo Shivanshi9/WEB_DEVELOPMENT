@@ -443,3 +443,53 @@ footer
 .res-info {
     line-height: 35px;
 }
+
+.menu-head
+{
+    margin-left: 250px;
+}
+
+.menu-card
+{
+    height: 150px;
+    width: 60vw;
+    background-color: white;
+    padding: 20px;
+    /* margin-top: 80px; */
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+}
+
+.menu-card img{
+    height: 110px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 10px ;
+}
+
+.price-button
+{
+    align-items: end;
+    margin-left: 430px;
+}
+
+.veg-badge
+{
+    height: 25px;
+    width: 30px;
+    background-color: #6b7280;
+    color: white;
+    padding: 3px;
+    border-radius: 8px;
+    text-align: center;  
+}
+
+.price-button button{
+    height: 35px;
+    width: 70px;
+    border: none;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
