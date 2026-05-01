@@ -118,11 +118,7 @@ function sum(x, y) {
 let val = sum(2, 3)
 console.log(val);
 
-const abcd = () => {
-    console.log("arrow function");
-    
-}
-
+const abcd = () => console.log("arrow function");
 abcd();
 
 
