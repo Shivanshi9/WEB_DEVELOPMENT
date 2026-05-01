@@ -43,7 +43,7 @@ else {
 
 
 let num = 20;
-if (num%2 == 0) {
+if (num % 2 == 0) {
     console.log("Even");
 }
 else {
@@ -77,7 +77,7 @@ console.log(data);
 // }
 
 let choice;
-switch(choice ){
+switch (choice) {
     case 1: {
         console.log("Tea");
         break;
@@ -94,6 +94,36 @@ switch(choice ){
         console.log("Lassi");
     }
 }
+
+
+// let s=20,b=30
+// function sum(s,b){
+//     let z= s+b
+//     console.log(z);
+// }
+// sum(s,b)
+
+
+
+let abc = function () {
+    console.log("Hello");
+}
+
+console.log(abc);  //in this case abs will called as callback function not variable if written as abc() it will not return whole function 
+abc()
+
+function sum(x, y) {
+    return x + y;
+}
+let val = sum(2, 3)
+console.log(val);
+
+const abcd = () => {
+    console.log("arrow function");
+    
+}
+
+abcd();
 
 
 
