@@ -3,7 +3,7 @@ let a;
 let b ;
 let c ;
 
-a= 10;
+a = 10;
 console.log(a); // 10
 console.log(b); // undefined 
 console.log(c); // undefined
@@ -14,8 +14,10 @@ console.log(a); // 10
 console.log(b); // 20 
 console.log(c);  // undefind 
 
- c= 20;
+ c = 20;
 
 console.log(a);
 console.log(b);
 console.log(c);   
+
+    
