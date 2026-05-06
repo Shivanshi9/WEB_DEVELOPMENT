@@ -65,5 +65,11 @@ console.log(arr.findLastIndex((val) => val === 6));
 
 let ar = [11, 3, 6, 2, 6, 144, 177]
 console.log(ar.filter((val) => val > 20)); //finds all values which is > 20
+console.log(ar.slice(0,3));
+
+let ab = "This is web-dev class"
+console.log(ab.split(" "));
+console.log(ab.split("-"));
+
 
 
