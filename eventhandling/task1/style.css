@@ -1,0 +1,23 @@
+#container
+{
+    
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+#box1
+  {
+    width: 60%;
+    height: 500px;
+  }
+
+ #box2
+  {
+    padding: 20px;
+    width: 40%;
+    height: 500px;
+     border: 1px solid black;
+     display: flex;
+     flex-direction: column;
+  }
