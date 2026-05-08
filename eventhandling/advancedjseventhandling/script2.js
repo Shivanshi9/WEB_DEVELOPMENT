@@ -19,6 +19,16 @@ document.querySelector("form").addEventListener("submit",(event)=>{
     
 })
 
-document.querySelector("form").addEventListener("reset",(event)=>{
-    confirm("are you sure") && window.location.reload()  
+// document.querySelector("form").addEventListener("reset",(event)=>{
+//     confirm("are you sure") && window.location.reload()  
+// })
+
+
+//kwyboard event 
+
+document.addEventListener("keydown",(event)=>{
+    let keypress = event.key;
+    // console.log(keypress);
+    keypress === "Escape" && window.location.reload();
+    
 })
