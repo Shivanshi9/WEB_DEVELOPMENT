@@ -1,0 +1,21 @@
+API -> RestFul API for frontend 
+
+Callback function -> old technique
+Promises -> new technique
+Async/Await -> latest technique
+
+Callback
+setTimeout -> sets delay for executing any function
+
+Promises
+mostly used in shopping website
+promises the user to deleiver the product on x day and this promis goes on delay state
+if delievered promise is fulfilled , if not promise rejected
+
+Two functions of promises  
+  Then ->  ,
+   Catch
+
+
+Async/Await -> most optimised way to call any API
+
